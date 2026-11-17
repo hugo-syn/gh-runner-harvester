@@ -120,8 +120,12 @@ miss entries whose serialization isn't currently resident.
 
 ---
 
-## Attribution
+## References
 
-Based on the original research and gist by
-[@hugo-syn](https://gist.github.com/hugo-syn), with an alternative technique
-discovered by @Tr4LSecurity.
+* Original research and gist by [@hugo-syn](https://gist.github.com/hugo-syn),
+  with an alternative technique discovered by **@Tr4LSecurity**.
+* Nikita Stupin — earlier research and PoC for extracting secrets from
+  self-hosted GitHub Actions runners:
+  [@nikitastupin](https://github.com/nikitastupin).
+* Karim Rahal — *GitHub Actions leaking secrets*:
+  <https://www.karimrahal.com/2023/01/05/github-actions-leaking-secrets/>.
