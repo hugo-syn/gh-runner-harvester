@@ -1,0 +1,15 @@
+# dotnet-dump / analysis artifacts
+*.dmp
+dump.analysis
+*.analysis
+
+# scratch frida copy with a patched address
+dump.patched.js
+
+# python
+__pycache__/
+*.pyc
+
+# editors / os
+.DS_Store
+*.swp
